@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>airliner</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/main02.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+</head>
+<body>
+	<!-- s: header -->
+	<header id="header_container">
+		<div class="header_inner">
+			<h1 class="logo">AIRLINER</h1>
+			<nav class="gnb_wrap">
+				<ul class="navList">
+					<li><a href="./sub01.html">항공사고</a></li>
+					<li><a href="#">항공안전</a></li>
+					<li><a href="#">항공상식</a></li>
+					<li><a href="#">항공언어</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- e: header -->
+
+	<!-- s: main -->
+	<section id="main">
+		<div class="bluebox"><img src="../images/bluebox.jpg"></div></div>
+		<div class="airplane"><img src="../images/main_airplane.png"></div>
+	</section>
+	<!-- e: main -->
+
+	<!-- s: start -->
+	<section id="start">
+		<div class="logo"><img src="../images/start.png"></div>
+		<div class="start_airplane"><img src="../images/start_airplane.jpg"></div>
+		<div class="start_text">
+			최초의 비행기에 대한 기본적인 원리와 구조는<br>
+			레오나르도 다빈치(Leonardo da Vinci)가 생각해냈다.<br>
+			이후 미국의 라이트 형제가 가솔린 기관을 이용해 만든 플라이어 호가<br>
+			1903년 최초로 12초 동안 36m를 동력 비행하는 데 성공하였다.<br>
+			제1차 세계대전을 거치면서 비행기의 성능이 급속도로 개선되기 시작했고,<br>
+			지금의 대형 여객기 시대에 도래하게되었다.</div>
+	</section>
+	<!-- e: start -->
+
+	<!-- s: history -->
+	<section id="history">
+		<div class="logo"><img src="../images/history.png"></div>
+		<!-- Slider main container -->
+	</section>
+	<div class="swiper-container">
+		<div class="swiper-pagination"></div>
+    	<!-- Additional required wrapper -->
+    	<div class="swiper-wrapper">
+        <!-- Slides -->
+        	<div class="swiper-slide"><img src="../images/history_01.jpg"></div>
+        	<div class="swiper-slide"><img src="../images/history_02.jpg"></div>
+       		<div class="swiper-slide"><img src="../images/history_03.jpg"></div>
+       		<div class="swiper-slide"><img src="../images/history_04.jpg"></div>
+       		<div class="swiper-slide"><img src="../images/history_05.jpg"></div>
+    	</div>
+    	
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>
+	<script>
+		$(function (){
+			var mySwiper = new Swiper ('.swiper-container', {
+					pagination:{
+						el:'.swiper-pagination', 
+						type:'bullets',
+							},
+							 navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+						});
+						}) 
+	</script>
+	<!-- e: history -->
+
+	<!-- s: about -->
+	<section id="about">
+		<div class="logo"><img src="../images/about.png"></div>
+			<section id="about_content">
+				<div class="about_01"><img src="../images/about_01.png"></div>
+				<div class="about_02"><img src="../images/about_02.png"></div>
+				<div class="about_03"><img src="../images/about_03.png"></div>
+				<div class="about_04"><img src="../images/about_04.png"></div>
+			</section>
+	</section>
+	<!-- e: about -->
+
+	<!-- s: footer -->
+	<section id="footer">
+		<div class="image"><img src="../images/footer.png"></div>
+	</section>
+	<!-- e: footer -->
+
+	</body>
+</html>

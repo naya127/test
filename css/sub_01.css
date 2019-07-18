@@ -1,0 +1,116 @@
+#header_container {
+	width: 100%; height: 100px;
+	background:white;
+}
+
+#header_container .header_inner {
+	width: 1200px; height: 100%; margin: 0 auto;
+}
+
+#header_container .header_inner .logo {
+	display: inline-block; line-height: 100px; font-size: 900; color:black;
+}
+
+#header_container .header_inner .gnb_wrap {
+	display: inline-block; float: right;
+}
+
+#header_container .header_inner .gnb_wrap .navList li {
+	display: inline-block; margin-left: 32px; font-size: 15px; font-weight: 900; color: black;
+}
+
+#header_container .header_inner .gnb_wrap .navList li:hover {
+	color:#1800ff;
+}
+
+#header_container .header_inner .gnb_wrap .navList li:first-child {
+	margin-left: 0;
+}
+
+#header_container .header_inner .gnb_wrap .navList li a {
+	line-height: 100px;
+}
+
+/*main*/
+#main .content{
+	width:1920px;
+	margin:0 auto;
+}
+#main .bluebox_sub01{
+	padding-top:50px; padding-right: 19%; padding-left: 56%;
+}
+#main .airplane{
+	position:absolute;top:95px;left:18%;
+}
+#main .title{
+	font-size:30px; font-weight:900; font-family:"Noto_Sans_KR"; color:black;
+	margin:0 auto; width:402px; padding-top:194px;
+}
+#main .text{
+	font-size:16px; font-weight:400; line-height:125%; font-family:"Noto_Sans_KR"; color:black;
+	margin:0 auto; width:1200px; padding-top:20px; text-align:center;
+}
+
+/*cause*/
+#cause .title{
+	font-family:"Noto_Sans_KR"; font-size:30px; color:black; font-weight:bold;
+	padding-left:20%; padding-top:60px;
+}
+#cause .text{
+	font-size:16px; font-weight:400; font-family:"Noto_Sans_KR"; color:black;
+	padding-left:20%; padding-top:20px;
+}
+#cause .graph{
+	width:624px; height:494px; margin:0 auto; padding-top:74px;
+}
+#cause .background{
+	background-color:#ebebeb; width:100%; height:811px;
+}
+#cause{
+	padding-top:188px;
+}
+
+/*gigan*/
+#gigan .title{
+	font-family:"Noto_Sans_KR"; font-size:30px; color:black; font-weight:bold;
+	padding-left:20%; padding-top:147px;
+}
+#gigan .text{
+	font-size:16px; font-weight:400; font-family:"Noto_Sans_KR"; color:black;
+	padding-left:20%; padding-top:20px;
+}
+#gigan .graph{
+	width:923px; height:188px; margin:0 auto; padding-top:147px; padding-bottom:335px;
+}
+
+/*11minute*/
+#minute{
+	background-image:url("../images/11minute_background.png");
+	width:1920px; height:500px; margin:0 auto;
+}
+#minute .blue_background{
+	background-color:#1300d4;
+	width:100%; height:500px;
+}
+#minute .title{
+	font-family:"Noto_Sans_KR"; font-size:30px; color:white; font-weight:bold;
+	padding-left:20%; padding-top:152px;
+}
+#minute .text{
+	font-family:"Noto_Sans_KR"; font-size:16px; color:white; font-weight:400;
+	padding-left:20%; padding-top:20px;
+}
+
+/*imsi*/
+.imsi img{
+	margin:0 auto;
+}
+
+/*footer*/
+#footer {
+	width:100%; height:200px;
+	background-color:#1800ff;
+}
+#footer .image{
+	width:1920px; margin:0 auto;
+}
